@@ -26,7 +26,7 @@ public class ATMMachineDbContext : DbContext
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         optionsBuilder.UseSqlServer(
-            "Data Source=DESKTOP-1J9E9SR;Initial Catalog=ATMMachine_Management;Integrated Security=True;Trust Server Certificate=True"
+            "Data Source=DESKTOP-1J9E9SR;Initial Catalog=EventManagement;Integrated Security=True;Trust Server Certificate=True"
         );
         base.OnConfiguring(optionsBuilder);
     }

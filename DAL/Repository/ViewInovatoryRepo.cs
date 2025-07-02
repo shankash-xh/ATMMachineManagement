@@ -7,7 +7,7 @@ namespace DAL.Repository;
 
 public class ViewInovatoryRepo : IViewInovatoryRepo
 {
-    private ATMMachineDbContext _dbcontext;
+    private readonly ATMMachineDbContext _dbcontext;
     public ViewInovatoryRepo()
     {
         _dbcontext = new();
